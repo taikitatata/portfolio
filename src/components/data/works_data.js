@@ -23,7 +23,7 @@ const items = [
         text: "架空LPサイトを製作しました。",
         img: school,
         skills: "HTML / CSS / jQuery",
-        link: "",
+        link: "https://schhol-lp.netlify.app/",
     }
 ]
 
