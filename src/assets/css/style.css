@@ -1,0 +1,53 @@
+#bg:after {
+    transform: scale(1.125);
+    transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+    background-image: url("../../images/sky.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.work__cont {
+    margin-bottom: 80px;
+}
+.work__cont p {
+    font-size: 20px;
+}
+.work__title__wrap {
+    display: flex;
+    justify-content: center;
+}
+.work__title {
+    text-align: center;
+    text-transform: none;
+}
+.work__img {
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+.work__img img {
+    width: 100%;
+}
+.work__text {
+    width: 80%;
+    margin: 0 auto 20px auto;
+        text-transform: none;
+
+}
+.work__skill {
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+.noLink {
+    display: none;
+}
+.link {
+    text-align: center;
+    color: #c0b9b9;
+}
+.link a {
+    font-size: 10px;
+    /* text-decoration: none; */
+    border-bottom: none;
+}
